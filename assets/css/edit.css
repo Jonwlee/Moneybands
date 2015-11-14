@@ -26,3 +26,7 @@ a {
 input {
 	color: white;
 }
+
+.container{
+	max-width: 100%
+}
