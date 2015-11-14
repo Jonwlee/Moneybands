@@ -32,3 +32,11 @@ input {
 	max-width: 100%;
 		padding-left:5%;
 }
+
+#heartRateGoal, #donationAmount, #submitInputs {
+	margin-top: 5%;
+}
+
+#submitInputs {
+	margin-bottom: 3%;
+}
