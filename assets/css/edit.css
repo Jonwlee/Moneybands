@@ -4,4 +4,13 @@
 
 #page-wrapper {
 	color: black;
+	font-size: 150%;
+}
+
+header, h2 {
+	color: #e60000;
+}
+
+#in {
+	color: #ff0000;
 }
