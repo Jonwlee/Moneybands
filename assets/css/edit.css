@@ -1,16 +1,28 @@
 body {
-	background-color: beige;	
+	background-color: #606060;	
 }
 
 #page-wrapper {
-	color: black;
+	color: white;
 	font-size: 150%;
 }
 
 header, h2 {
-	color: #e60000;
+	color: #e44c65;
 }
 
 #in {
-	color: #ff0000;
+	color: #ff8080;
+}
+
+h3 {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+input {
+	color: white;
 }
