@@ -28,15 +28,13 @@ window.onload = function () {
   console.log("Login Failed!", error);
  } else {
  console.log("Authenticated successfully with payload:", authData);
- ref.authWithOAuthRedirect("stats.html", function(error){
-  if (error) {
-    console.log("Authentication Failed!", error);
-  } else {
-    // We'll never get here, as the page will redirect on success.
-  }
-});
+ openWin;
   }});
   };
+
+function openWin(){
+  window.open("stats.html", "_self");
+}
 
 // document.getElementById('googleSign').addEventListener('click', ref.authWithOAuthPopup("google", function(error, authData) {
 //   if (error) {
