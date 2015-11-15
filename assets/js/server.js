@@ -25,4 +25,4 @@ document.addEventListener('DOMContentLoaded', //this is one big parameter
         	ref.authWithOAuthRedirect("google", function(error) {
   if (error) 
     console.log("Login Failed!", error);
-}),authData)};
+}),authData)});
