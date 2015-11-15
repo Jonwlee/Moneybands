@@ -2,6 +2,10 @@ html {
 	width:100%;
 }
 
+body {
+	background-color: #272833;
+}
+
 #page-wrapper {
 	color: white;
 	font-size: 150%;
@@ -11,12 +15,17 @@ header, h2 {
 	color: #e44c65;
 }
 
+#shift1, #shift2, header.major:after {
+	position: relative;
+	left: -50px;
+}
+
 #in {
 	color: #ff8080;
 }
 
 h3 {
-	color: white;
+	color: #33CCFF;
 }
 
 a {
@@ -32,9 +41,10 @@ input {
 	max-width: 100%;
 		padding-left:5%;
 }
-
-#heartRateGoal, #donationAmount, #submitInputs {
+input[type ="text"] {
+	border-color: rgba(255,255,255,1);
 	margin-top: 5%;
+
 }
 
 #submitInputs {
