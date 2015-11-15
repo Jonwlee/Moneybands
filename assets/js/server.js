@@ -28,12 +28,12 @@ window.onload = function () {
   console.log("Login Failed!", error);
  } else {
  console.log("Authenticated successfully with payload:", authData);
- openWin;
+ openWin();
   }});
   };
 
 function openWin(){
-  window.open("stats.html", "_self");
+  window.open("http://52.7.99.37/stats.html", "_self");
 }
 
 // document.getElementById('googleSign').addEventListener('click', ref.authWithOAuthPopup("google", function(error, authData) {
