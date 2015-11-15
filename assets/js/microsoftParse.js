@@ -14,7 +14,7 @@
 
     var loginUrl, clientId, scope, redirectUri, accessToken, authHeader, apiTemplateUrl, Promise, MicrosoftHealth;
 
-    loginUrl = "https://login.live.com/oauth20_authorize.srf?client_id={client_id}&scope={scope}&response_type=token&redirect_uri={redirect_uri}";
+    loginUrl = "https://login.live.com/oauth20_authorize.srf?client_id={client_id}&scope={mshealth.ReadActivityHistory}&response_type=token&redirect_uri={52.7.99.37}";
     accessToken = "";
     authHeader = "Bearer {access_token}";
     apiTemplateUrl = "https://api.microsofthealth.net/v1/me/{path}?{parameters}";
@@ -131,7 +131,7 @@
             }
         });
     };
-
+`
     /* MicrosoftHealth.prototype.getActivities = function (options) {
         return query({
             path: "Activities",
