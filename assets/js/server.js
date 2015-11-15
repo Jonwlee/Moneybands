@@ -20,13 +20,16 @@ var authData;
 var ref = new Firebase("https://run-or-fund.firebaseio.com");
 
 window.onload = function () {
-  document.getElementById("googleSign").addEventListener("click", function(){
-      ref.authWithOAuthPopup("google", function(error, authData) {
+  document.getElementById("googleSign").addEventListener("click", gsign)};
+
+  function gsign(){
+  ref.authWithOAuthPopup("google", function(error, authData) {
   if (error) {
   console.log("Login Failed!", error);
  } else {
  console.log("Authenticated successfully with payload:", authData);
-  }})})};
+  }});
+  };
 
 // document.getElementById('googleSign').addEventListener('click', ref.authWithOAuthPopup("google", function(error, authData) {
 //   if (error) {
