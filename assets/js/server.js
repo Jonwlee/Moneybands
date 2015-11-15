@@ -1,17 +1,15 @@
 //Globals
-var stepGoal; 
-var heartRateGoal;
-var donationAmount;
-
-document.addEventListener('DOMContentLoaded', //this is one big parameter
-    function handlers() {
-        document.getElementById('submitInputs').addEventListener('click', submit); //event handlers
-
-    });
+var stepGoalV; 
+var heartRateGoalV;
+var donationAmountV;
 
 function submit(){
-	stepGoal = document.getElementById("stepGoal").value;
-	heartRateGoal = document.getElementById("heartRateGoal").value;
-	donationAmount = document.getElementById("donationAmount").value;
+	stepGoalV = document.getElementById("stepGoal").value;
+	console.log(stepGoalV);
+	heartRateGoalV = document.getElementById("heartRateGoal").value;
+	console.log(heartRateGoalV);
+	donationAmountV = document.getElementById("donationAmount").value;
+	
+	document.getElementById("finalDonation").innerHTML = donationAmountV;
 
 }

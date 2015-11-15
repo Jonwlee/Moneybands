@@ -100,11 +100,11 @@
 									<section id="content">
 									
 										<h3>Your Donation</h3>
-										<p>Your current donation amount for each goal you've missed is: <span id="donationAmount"></span></p>
+										<p>Your current donation amount for each goal you've missed is: <span id="finalDonation"></span></p>
 										<input type="text" placeholder= "What's your step count goal?" id= "stepGoal">
 										<input type="text" placeholder= "What's your average heart rate goal?" id= "heartRateGoal">
-										<input type="text" placeholder= "How much do you want to donate?" id="donationAmount" >
-										<a class="button" id="submitInputs">Save Goals and Donation</a>
+										<input type="text" placeholder= "How much do you want to donate?" id= "donationAmount">
+										<button id="submitInputs" onclick="submit()">Save Goals and Donation</button>
 
 										<p>i'm not sure how you're going to do this but somehow there should be a way to select what charities/causes to donate to using stripe/interaction with the flask service.</p>
 										<ul>
