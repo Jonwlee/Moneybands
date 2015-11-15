@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Run or Fund - RPI</title>
+		<title>Home - Run or Fund - HackRPI</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -15,9 +15,9 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script>
-      var mshealth = new MicrosoftHealth({
+      /* var mshealth = new MicrosoftHealth({
             clientId: "<000000004C170226>",
-            redirectUri: "http://52.7.99.37",
+            redirectUri: "<Insert your redirect uri here>",
             scope: "mshealth.ReadProfile mshealth.ReadDevices mshealth.ReadActivityHistory mshealth.ReadActivityLocation"
 
         });
@@ -31,27 +31,12 @@
 					<h1 id="logo"><a href="index.html">Run or Fund</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="Home.html">Home</a></li>
 							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
+								<a href="about.html">About Us</a>
 							</li>
 
-							
-							<li><a href="#" class="button special">Contact</a></li>
+							<li><a href="donate.html" class="button special">Join the race!</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -62,62 +47,56 @@
 						<header class="major">
 							<h2 id = "shift1">Run or Fund</h2>
 
-							<p id = "shift2">Exercise your body and soul.</p>
+							<p id = "shift2">Exercise your body and soul. And your wallet.</p>
 
 						</header>
+						
 						<div class="row 150%">
 							<div class="4u 12u$(medium)">
-
 								<!-- Sidebar -->
-									<section id="sidebar">
+								
+									<section>
 										<section>
 									
-											<h3>Heart Rate</h3>
-											<p>Your average heart rate was <span id="heartRate"></span></p>
+											<h3>Microsoft Band Interaction</h3>
+											<p>The Microsoft Band allows us to keep track of how active you are.</p>
 											<footer>
 												<ul class="actions">
 													<li><a href="#" class="button">Learn More</a></li>
 												</ul>
 											</footer>
 										</section>
-										<hr />
+										</section>
+								</div>
+								<div class="row 150%">
+										<div class="8u$ 12u$(medium) important(medium)">
 										<section>
 										
-											<h3>Step Count</h3>
-											<p>Your end step count was <span id="stepCount"></span></p>
+											<h3>Goals</h3>
+											<p>You can push yourself based on what you want to see.</p>
 											<footer>
 												<ul class="actions">
 													<li><a href="#" class="button">Learn More</a></li>
 												</ul>
 											</footer>
 										</section>
-									</section>
-
-							</div>
-							<div class="8u$ 12u$(medium) important(medium)">
-
-								<!-- Content -->
-									<section id="content">
-									
-										<h3>Your Donation</h3>
-										<p>Your current donation amount for each goal you've missed is: <span id="finalDonation"></span></p>
-										<input type="text" placeholder= "Step Count Goal" id= "stepGoal">
-										<input type="text" placeholder= "Heart Rate Goal" id= "heartRateGoal">
-										<input type="text" placeholder= "Donation Amount" id= "donationAmount">
-										<button id="submitInputs" onclick="submit()">Save Goals and Donation</button>
-
-										<p>i'm not sure how you're going to do this but somehow there should be a way to select what charities/causes to donate to using stripe/interaction with the flask service.</p>
-										<ul>
-											<li>Insert python stripe stuff here</li>
-											<li>Stripe stuff</li>
-										</ul>
-									</section>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
+									</div>
+									</div>
+									<div class="row 150%">
+										<div class="8u$ 12u$(medium) important(medium)">
+										<section>
+										
+											<h3>Goals</h3>
+											<p>You can push yourself based on what you want to see.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="#" class="button">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+									</div>
+									</div>
+									</div>
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
