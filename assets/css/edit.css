@@ -82,3 +82,9 @@ vertical-align: baseline;
 box-sizing: border-box;
 
 }
+
+img{
+	position: relative;
+	margin: auto;
+	display: block;
+}

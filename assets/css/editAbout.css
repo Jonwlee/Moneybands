@@ -76,3 +76,11 @@ vertical-align: baseline;
 box-sizing: border-box;
 
 }
+
+img,button{
+	position: relative;
+	margin: auto;
+	display: block;
+	background: transparent;
+	border-color: transparent;
+}
