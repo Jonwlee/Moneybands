@@ -28,6 +28,11 @@ h3 {
 	color: #33CCFF;
 }
 
+section {
+	position: relative;
+	left: 60px;
+}
+
 a {
 	color: white;
 }
