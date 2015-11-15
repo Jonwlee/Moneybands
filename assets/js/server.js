@@ -19,9 +19,3 @@ var signer;
 var authData;
 
 var ref = new Firebase("https://run-or-fund.firebaseio.com");
-
-document.getElementById('googleSign').addEventListener('click', 
-        	ref.authWithOAuthRedirect("google", function(error) { 
-        		if (error) 
-        		console.log("Login Failed!", error); }
-),authData);
