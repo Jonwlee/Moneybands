@@ -12,27 +12,14 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/edit.css" />
+		<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<script>
-      /* var mshealth = new MicrosoftHealth({
-            clientId: "<000000004C170226>",
-            redirectUri: "<Insert your redirect uri here>",
-            scope: "mshealth.ReadProfile mshealth.ReadDevices mshealth.ReadActivityHistory mshealth.ReadActivityLocation"
-
-        });
-        mshealth.login(); */    </script>
+		
 	</head>
 	<body>
 		<div id="page-wrapper">
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1714658525434282";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 			<!-- Header -->
 				<header id="header"> 
 					<h1 id="logo"><a href="index.html">Run or Fund</a></h1>
@@ -54,10 +41,11 @@
 						<header class="major">
 							<h2 id = "shift1">Run or Fund</h2>
 							<p id = "shift2">Exercise your body and soul. And your wallet.</p>
+							<button id="googleSign">Sign in with Google</button>
 						</header>
 
 		<!-- Login -->
-		<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false"></div>
+
 		
 			<!-- Footer -->
 				<footer id="footer">
@@ -80,5 +68,6 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/server.js"></script>
+
 	</body>
 </html>
