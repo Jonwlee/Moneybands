@@ -52,6 +52,11 @@ input[type ="text"] {
 
 }
 
+#footer {
+	position: relative;
+	left: -50px;
+}
+
 #submitInputs {
 transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 background-color: transparent;
