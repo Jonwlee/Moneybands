@@ -33,7 +33,7 @@ window.onload = function () {
   };
 
 function openWin(){
-  window.open("http://52.7.99.37/stats.html", "_self");
+  window.open("http://runorfund.com/stats.html", "_self");
 }
 
 // document.getElementById('googleSign').addEventListener('click', ref.authWithOAuthPopup("google", function(error, authData) {
